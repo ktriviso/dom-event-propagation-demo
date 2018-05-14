@@ -1,0 +1,33 @@
+    body {
+      margin:0;
+      padding:0;
+    }
+    section {
+      width: 800px;
+      height: 800px;
+      display: block;
+      margin:0 auto;
+    }
+    .box {
+      height: 80%;
+      width: 80%;
+      background-color: hsla(343, 96%, 41%, .15);
+      display:block;
+      margin:0 auto;
+      position: relative;
+      top: 10%;
+      border-radius: 10%;
+      -webkit-animation:spin 6000s ease-out infinite;
+      -moz-animation:spin 6000s ease-out infinite;
+      animation:spin 6000s ease-out infinite;
+
+    }
+    .purple {
+      background-color: hsla(255, 80%, 20%, .15);
+    }
+    .unrounded {
+      border-radius: 0;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

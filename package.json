@@ -1,0 +1,19 @@
+{
+  "name": "dom-events-demo",
+  "version": "1.0.0",
+  "description": "a quick demo of bubbling events",
+  "main": "index.js",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [],
+  "author": "Jason Seminara <js@ga.co>",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.10.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
